@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { resolve } from 'dns';
 
 declare function init_plugins();
 
@@ -9,7 +10,7 @@ declare function init_plugins();
 })
 export class PagesComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     init_plugins();
