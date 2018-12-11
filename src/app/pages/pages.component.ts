@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { resolve } from 'dns';
+// import { resolve } from 'dns';
 
 declare function init_plugins();
 
