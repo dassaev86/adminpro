@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginGuardGuard } from './guards/login-guard.guard';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 import { MedicoService } from './medico/medico.service';
+import { AdminGuard } from './guards/admin.guard';
 
 
 
@@ -24,7 +25,8 @@ import { MedicoService } from './medico/medico.service';
     LoginGuardGuard,
     SubirArchivoService,
     ModalUploadService,
-    MedicoService
+    MedicoService,
+    AdminGuard
   ],
   declarations: []
 })
